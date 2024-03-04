@@ -1,0 +1,16 @@
+{
+	"apr": [ "jingle", "arriving_at", "!this_stop" ],
+	"apr_terminus": [ "jingle", "arriving_at", "!this_stop", "destination" ],
+	
+	"arr": [ "jingle", "this_stop", "!this_stop", "service_to", "!destination" ],
+	"arr_terminus": [ "jingle", "this_stop", "!this_stop", "destination" ],
+	
+	"dep": [ "jingle", "welcome", "!destination", "calling_at", "!calling_at", "next_stop", "!next_stop" ],
+
+	"short_platform_this": [ "only_alight", "!platform_length_this", "short_platform", "correct_car" ],
+	"short_platform_next": [ "only_alight", "!platform_length_next", "short_platform", "correct_car" ],
+
+	"stations": {
+		"teststation1": { "platform_length": 5 }
+	}
+}

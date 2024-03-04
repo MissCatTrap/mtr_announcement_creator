@@ -1,0 +1,19 @@
+{
+	"resource_pack_name": "mtr_announcement_creator",
+	"prefix": "mtr_announcement_creator",
+	"inputs":
+		[
+		],
+	"routes":
+		[
+			{
+				"code": "test",
+				"name": "01d",
+				"platform_length": 6,
+				"stops":
+					[
+						"stathordpiccadilly", "bramleysouth", "obbsfloot", "stathordroadobbsfloot", "darkton"
+					]
+			}
+		]
+}
